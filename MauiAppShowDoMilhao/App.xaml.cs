@@ -126,6 +126,42 @@ namespace MauiAppShowDoMilhao
                     new Alternativa { Correta = false, Descricao = "IAGO"},
                 }
             },
+            new Pergunta
+            {
+                id = 11,
+                Enunciado = "Quantos signos formam o zodíaco?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "NOVE"},
+                    new Alternativa { Correta = false, Descricao = "DEZ"},
+                    new Alternativa { Correta = false, Descricao = "ONZE"},
+                    new Alternativa { Correta = true, Descricao = "DOZE"},
+                }
+            },
+            new Pergunta
+            {
+                id = 12,
+                Enunciado = "Como se chama o lugar onde são armazenadas as vbalas de um revólver?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "CANO"},
+                    new Alternativa { Correta = true, Descricao = "TAMBOR"},
+                    new Alternativa { Correta = false, Descricao = "AGULHA"},
+                    new Alternativa { Correta = false, Descricao = "GATILHO"},
+                }
+            },
+            new Pergunta
+            {
+                id = 13,
+                Enunciado = "Qual personagem da turma da Mônica tem apenas cinco fios de cabelo?",
+                Alternativas = new()
+                {
+                    new Alternativa { Correta = false, Descricao = "MÔNICA"},
+                    new Alternativa { Correta = true, Descricao = "CEBOLINHA"},
+                    new Alternativa { Correta = false, Descricao = "CASCÃO"},
+                    new Alternativa { Correta = false, Descricao = "MAGALI"},
+                }
+            },
         }
 
         public App()
