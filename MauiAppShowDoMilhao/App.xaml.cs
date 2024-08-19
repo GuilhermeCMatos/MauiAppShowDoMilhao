@@ -751,9 +751,28 @@ namespace MauiAppShowDoMilhao
         }
 
         /**
-         * Sorteia uma pergunta fácil entre 1 e 20
+         * Sorteia uma pergunta média entre 1 e 20
          */
-        public static Pergunta getRandomPerguntaMedia();
+        public static Pergunta getRandomPerguntaMedia()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, perguntas_medias.Count);
+
+            return perguntas_medias[sorteado];
+        }
+
+        /**
+         * Sorteia uma pergunta defícil entre 1 e 20
+         */
+        public static Pergunta getRandomPerguntaDificil()
+        {
+            Random r = new Random();
+
+            int sorteado = r.Next(1, perguntas_dificeis.Count);
+
+            return perguntas_dificeis[sorteado];
+        }
 
         public App()
         {
