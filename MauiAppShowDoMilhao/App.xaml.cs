@@ -4,7 +4,7 @@ namespace MauiAppShowDoMilhao
 {
     public partial class App : Application
     {
-        List<Pergunta> perguntas_faceis = new()
+        static List<Pergunta> perguntas_faceis = new()
         {
             new Pergunta
             {
@@ -247,7 +247,7 @@ namespace MauiAppShowDoMilhao
                 }
             },
         };
-        List<Pergunta> perguntas_medias = new()
+        static List<Pergunta> perguntas_medias = new()
         {
             new Pergunta
             {
@@ -490,7 +490,7 @@ namespace MauiAppShowDoMilhao
                 }
             },
         };
-        List<Pergunta> perguntas_dificeis = new()
+        static List<Pergunta> perguntas_dificeis = new()
         {
             new Pergunta
             {
@@ -733,7 +733,7 @@ namespace MauiAppShowDoMilhao
                 }
             },
         };
-        List<Pergunta> perguntas_finais = new()
+        static List<Pergunta> perguntas_finais = new()
         {
 
         };

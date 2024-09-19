@@ -29,7 +29,7 @@
             <Button Text="Próxima" Clicked="Button_Clicked_Proxima" />
         </StackLayout>
 
-    </StackLayout>
+        </StackLayout>
 
     <StackLayout Spacing="10" Margin="10">
             <Grid ColumnDefinitions="*, *, *"
@@ -44,6 +44,7 @@
             </Grid>
 
             <Label Text="{Binding Enunciado}"/>
+        </StackLayout>
     </StackLayout>
 
 </ContentPage>
